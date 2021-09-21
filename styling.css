@@ -1,0 +1,529 @@
+body{
+    background-image: url("img/santiago-battle.jpg");
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+h1{
+    font-family: "Courier New","Lucida Console", monospace;
+    margin-top: 0px;
+    font-size: 55px;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    color: white;
+    background-image: url("img/headerBG.jpg");
+    height: 80px;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+
+nav{
+    height: 45px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-image: url("img/headerBG.jpg");
+    background-position: 0px 375px;
+    padding-bottom: 3px;
+    text-align: right;
+}
+
+#logCont{
+    float: right;
+    height: 45px;
+    font-size: 16px;
+    width: 270px;
+    color: white;
+    font-family: "Courier New","Lucida Console", monospace;
+    margin-left: 14%;
+    margin-bottom: 3px;
+    margin-right: 2%;
+    margin-top: 12px;
+    text-align: right;
+}
+#logCont>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#userName{
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+#log-elem{
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    font-size: 14px;
+    height: 19px;
+    width: 65px;
+    text-decoration: none;
+    vertical-align: 3px;
+    padding-top: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#log-elem:hover{
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 4px;
+    height: 20px;
+    width: 67px;
+}
+
+button{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    width: 180px;
+    vertical-align: middle;
+    border: 1px white solid;
+}
+
+#istruzioniCont{
+    background-color: white;
+    font-family: "Courier New","Lucida Console";
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#istruzioniCont>p{
+    font-size: 15px;
+}
+
+h6{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: "Courier New","Lucida Console";
+    margin-top: 15px;
+    font-size: 26px;
+}
+
+h4{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h5{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.istruzioni{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p[class="inside"]{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 35px;
+    font-size: 12px;
+    margin-bottom: 30px
+}
+
+input{
+    text-align: center;
+    height: 22px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 12px;
+}
+
+input:focus{
+    outline: black solid 1.5px;
+}
+
+.mainCont{
+    background-color: white;
+    height: 420px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    font-family: "Lucida Console", "Monaco", monospace;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.btn:hover{
+    width: 81px;
+    font-weight: bold;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer>p{
+    padding-top: 11px;
+}
+
+.error{
+    color: red;
+    margin-top: 0px;
+    font-family: "Lucida Console", "Monaco", monospace;
+    font-size: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 0px;
+    font-family: "Lucida Console", "Monaco", monospace;
+    font-size: 14px;
+    margin-top: 17px;
+    font-weight: 600;
+}
+
+.signup{
+    margin-top: 0px;
+}
+
+#successalert{
+    margin-top: 70px;
+}
+
+.row{
+    display: flex;
+}
+
+.letter{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    font-size: 20px;
+}
+.number{
+    vertical-align: bottom;
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+}
+
+[class*="tile"]{
+    width: 45px;
+    height: 45px;
+    background-image: url("img/wave-right.jpg");
+    background-size: 45px 45px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#game-display{
+    background-color: white;
+    border: 1px solid black;
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 13px;
+    border-top: none;
+}
+
+.square-container{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+}
+
+.nav-elem{
+    color: white;
+    display: inline-block;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#corazzata-0{
+    height: 45px;
+    width: 180px;
+}
+
+.sommergibile{
+    height: 45px;
+    width: 135px;
+}
+
+.corvette{
+    height: 45px;
+    width: 90px;
+}
+
+.lancia{
+    height: 45px;
+    width: 45px;
+}
+
+#game-display>*{
+    vertical-align: top;
+}
+
+.desc{
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#coord{
+    width: 53px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#pos-but{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#reset-but, #start-but{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#reset-but{
+    margin-right: 40px;
+}
+
+img:hover{
+    border: 1px dashed black;
+}
+
+#pc-matrix{
+    margin-left: 7%;
+}
+
+#choose-cont{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#choose-cont>*{
+    display: inline-block;
+}
+
+#matrixes{
+     margin-top: 0px;
+}
+
+#clock-wrapper{
+    float: left;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-left: 5%;
+}
+
+#clock-wrapper>*{
+    display: inline-block;
+}
+
+#clock{
+    width: 100px;
+    font-size: 13px;
+}
+#choosenCoord{
+    width: 75px;
+    height: 30px;
+    margin-right: 25px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#result-display{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: auto;
+    padding-top: 20px;
+}
+
+#index-title{
+    background-image: none;
+    color: black;
+    margin-top: 20px;
+    height: 48px;
+}
+
+#custom-desc{
+    display: block;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#custom-display{
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.gameBut{
+    background-color: #3b3734;
+    border: 3px solid #d4d4d4;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    box-shadow: 0px 0px 1px 0px #888888;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gameBut:hover{
+    box-shadow: 0px 0px 2px 1px #888888;
+}
+.gameBut:disabled{
+    color: #d4d4d4;
+    box-shadow: 0px 0px 1px 0px #888888;
+}
+
+#control-but{
+    width: 110px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+footer>p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+select{
+    text-align: left;
+    height: 25px;
+    width: 115px;
+    margin-left: 10px;
+    border: 1px solid black;
+    font-family: "Lucida Console", monospace;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
+
+#header{
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th{
+    font-family: 'Courier New', Courier, monospace;
+    width: 130px;
+    font-size:20px;
+    height: 30px;
+}
+
+tr{
+    height: 30px;
+    vertical-align: bottom;
+}
+
+#userTable>tr{
+    vertical-align: middle;
+    height: 32px;
+}
+
+.tableCont{
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    width: 500px;
+}
