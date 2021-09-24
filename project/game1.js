@@ -375,12 +375,12 @@ function colpisci(val){
 
             console.log("sono dentro if con sessionStorage");
             var userName = document.getElementById("userName").textContent;
-            $.post( 'http://localhost/project/php/manageScore.php', { user: userName, time: timeScore } )          //sistemare log out   
+            $.post( '/php/manageScore.php', { user: userName, time: timeScore } )          //sistemare log out   
                 .done((data) => console.log(data));  
         }
-        openWindow();                         
-        showResult('US');    
         window.location.replace("classifiche.php");  
+        openWindow();                         
+        showResult('US');            
         setTimeout("stopWindow()", 5000);
     }
     else{
