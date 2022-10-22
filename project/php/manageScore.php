@@ -1,9 +1,9 @@
 <?php
 
     $nomeHost = "localhost";
-    $nomeUtente = "root";
-    $password = "";
-    $nomeDB = "battaglianavale";
+    $nomeUtente = "id19749266_root";
+    $password = "fiz/Z6D)f!T+{^\=";
+    $nomeDB = "id19749266_battaglianavale";
 
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
