@@ -378,7 +378,7 @@ function colpisci(val){
             $.post( '/php/manageScore.php', { user: userName, time: timeScore } )          //sistemare log out   
                 .done((data) => console.log(data));  
         }
-        window.location.replace("classifiche.php");  
+        window.location.replace("./classifiche.php");  
         openWindow();                         
         showResult('US');            
         setTimeout("stopWindow()", 5000);
@@ -636,7 +636,7 @@ out:
         clearInterval(clock);
         openWindow();                    
         showResult('PC'); 
-        window.location.replace("classifiche.php");      
+        window.location.replace("./classifiche.php");      
         setTimeout("stopWindow()", 5000);
     }     
     console.log("sono arrivato alla fine di PCcolpisce");   

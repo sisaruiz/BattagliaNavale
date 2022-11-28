@@ -16,15 +16,11 @@
         if ($mysqli->connect_error){
             die('Connessione fallita: ' .$mysqli->connect_error);
         }
-        else {
-            echo 'Connessione riuscita' . $mysqli->host_info . "\n";	
-        }
 
         $email = $_POST['email'];
         $username = $_POST['username'];
         $password = $_POST['password'];
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-        var_dump($hashed_password);
         
         if ($query = $mysqli->prepare('SELECT * FROM utente WHERE email = ?')) {
 
