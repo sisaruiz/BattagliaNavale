@@ -4,6 +4,10 @@ body{
     margin: 0px 0px 0px 0px;
 }
 
+a.butt:hover{
+    cursor: default
+}
+
 h1{
     font-family: "Courier New","Lucida Console", monospace;
     margin-top: 0px;

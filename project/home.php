@@ -59,7 +59,7 @@ session_start();
                 <img alt="lancia" id="lancia-1" class="lancia" src="img/lanciaO1.jpg" onclick="position(this)">
                 <img alt="lancia" id="lancia-2" class="lancia" src="img/lanciaO1.jpg" onclick="position(this)">  
                 <div>
-                    <button id="reset-but" class="gameBut" onclick="reset(this)" disabled>RESET</button><a href="./game.php"><button id="start-but" class="gameBut" disabled>INIZIA</button></a>
+                    <button id="reset-but" class="gameBut" onclick="reset(this)" disabled>RESET</button><a class="butt" href="./game.php"><button id="start-but" class="gameBut" disabled>INIZIA</button></a>
                 </div>
             </div>
         </div>
