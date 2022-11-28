@@ -15,9 +15,6 @@
         if ($mysqli->connect_error){
             die('Connessione fallita: ' .$mysqli->connect_error);
         }
-        else {
-            echo 'Connessione riuscita' . $mysqli->host_info . "\n";	
-        }
         
         $email = $_POST['email'];
 
