@@ -462,9 +462,10 @@ img:hover{
 #control-but{
     width: 110px;
 }
+
 p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 17px;
+    font-size: 13px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
