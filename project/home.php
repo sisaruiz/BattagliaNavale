@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="it">
     <head>
@@ -17,7 +20,6 @@
             </ul>
             <div id="logCont">
                     <?php
-                        session_start();
 
                         if ( isset($_SESSION['id']) && isset($_SESSION['name']) ) {
                             echo'<script src="js/checkLoggedIn.js"></script>';
