@@ -1,0 +1,11 @@
+Bug:
+- correggere il termine del gioco
+- sistemare il caricamento delle immagini
+- rivedere graficamente il footer
+- correggere i margini dei box css (eliminare ogni riferimento assoluto)
+
+Modifiche da introdurre nella versione 2.0:
+- implementare drag and drop delle navi
+- aggiungere un posizionamento random
+- invio email di avvenuta iscrizione
+- aggiungere 
